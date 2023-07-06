@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    background: #dedede;
+    padding: 48px;
+  }
+  
+  #redTitle {
+    text-align: left;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  #greenTitle {
+    text-align: left;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  #blueTitle {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0000ff;
+  }
+  
+  #redInput {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #blueInput {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #greenInput {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .redTitleDiv {
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 760px;
+    text-align: center;
+  }
+
+  
+  .greenTitleDiv {
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 860px;
+    bottom: 400px;
+    text-align: center;
+  }
+  
+
+  .blueTitleDiv {
+    height: 200px;
+    width: 100px;
+    position: relative;
+    left: 960px;
+    bottom: 200px;
+    text-align: center;
+  }
+
+  #enterTitle {
+    text-align: left;
+    padding-left: 830px;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  #x3 {
+    position: relative;
+    left: 825px;
+    bottom: 400px;
+  }
