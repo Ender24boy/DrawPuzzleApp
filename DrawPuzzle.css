@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background: #dedede;
+    background: #CBC8C8;
     padding: 48px;
   }
   
@@ -58,7 +58,7 @@ body {
     height: 200px;
     width: 100px;
     position: relative;
-    left: 760px;
+    left: 45%;
     text-align: center;
   }
 
@@ -67,7 +67,7 @@ body {
     height: 200px;
     width: 100px;
     position: relative;
-    left: 860px;
+    left: 50%;
     bottom: 400px;
     text-align: center;
   }
@@ -77,20 +77,38 @@ body {
     height: 200px;
     width: 100px;
     position: relative;
-    left: 960px;
+    left: 55%;
     bottom: 200px;
     text-align: center;
   }
 
-  #enterTitle {
+  .rulesContainer {
+    height: 200px;
+    width: 1000px;
+    position: relative;
+    left: 30%;
+    bottom: 150px;
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+  .entertitle {
     text-align: left;
     padding-left: 830px;
+    position: relative;
     display: inline-block;
     font-size: 30px;
   }
   
-  #x3 {
+  .x3 {
+    left: 46.5%;
+    bottom: 450px;
     position: relative;
-    left: 825px;
-    bottom: 400px;
+    display: inline-block;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
   }

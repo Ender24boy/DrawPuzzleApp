@@ -7,59 +7,66 @@
   </head>
 
   <body>
-    <div></div>
-    <h3 id="enterTitle">Enter Color Code</h3>
-    <div class="redTitleDiv">
-      <b id="redTitle">Red</b>
-      <input
-        oninput="changeColor()"
-        autocapitalize="characters"
-        type="text"
-        id="redInput"
-        maxlength="2"
-        style="text-transform: uppercase;"
-        size="4"
-      />
+    <div class="container">
+      <div class="title">
+        <h3 id="enterTitle">Enter Color Code</h3>
+      </div>
+      <div class="redTitleDiv">
+        <b id="redTitle">Red</b>
+        <input
+          oninput="changeColor()"
+          autocapitalize="characters"
+          type="text"
+          id="redInput"
+          maxlength="2"
+          style="text-transform: uppercase;"
+          size="4"
+        />
+      </div>
+
+      <div class="blueTitleDiv">
+        <b id="blueTitle">Blue</b>
+        <input
+          oninput="changeColor()"
+          autocapitalize="characters"
+          type="text"
+          id="blueInput"
+          maxlength="2"
+          style="text-transform: uppercase;"
+          size="4"
+        />
+      </div>
+
+      <div class="greenTitleDiv">
+        <b id="greenTitle">Green</b>
+        <input
+          oninput="changeColor()"
+          autocapitalize="characters"
+          type="text"
+          id="greenInput"
+          maxlength="2"
+          style="text-transform: uppercase;"
+          size="4"
+        />
+      </div>
+      <div class="x3">
+      <svg width="200" height="200">
+        <rect visibility="hidden" id="rect00" x="20" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect00)"/>
+        <rect visibility="hidden" id="rect10" x="75" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect10)"/>
+        <rect visibility="hidden" id="rect20" x="130" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect20)"/>
+        <rect visibility="hidden" id="rect01" x="20" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect01)"/>
+        <rect visibility="visible" id="rect11" x="75" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect11)"/>
+        <rect visibility="hidden" id="rect21" x="130" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect21)"/>
+        <rect visibility="hidden" id="rect02" x="20" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect02)"/>
+        <rect visibility="hidden" id="rect12" x="75" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect12)"/>
+        <rect visibility="hidden" id="rect22" x="130" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect22)"/>
+      </svg>
+      </div>  
+
+      <div class="rulesContainer">
+        <b id="rule1"></b>
+      </div>
     </div>
-
-    <div class="blueTitleDiv">
-      <b id="blueTitle">Blue</b>
-      <input
-        oninput="changeColor()"
-        autocapitalize="characters"
-        type="text"
-        id="blueInput"
-        maxlength="2"
-        style="text-transform: uppercase;"
-        size="4"
-      />
-    </div>
-
-    <div class="greenTitleDiv">
-      <b id="greenTitle">Green</b>
-      <input
-        oninput="changeColor()"
-        autocapitalize="characters"
-        type="text"
-        id="greenInput"
-        maxlength="2"
-        style="text-transform: uppercase;"
-        size="4"
-      />
-    </div>
-
-    <svg id= "x3" width="160" height="160">
-      <rect id="rect00" x="0" y="0" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect00)"/>
-      <rect id="rect10" x="55" y="0" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect10)"/>
-      <rect id="rect20" x="110" y="0" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect20)"/>
-      <rect id="rect01" x="0" y="55" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect01)"/>
-      <rect id="rect11" x="55" y="55" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect11)"/>
-      <rect id="rect21" x="110" y="55" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect21)"/>
-      <rect id="rect02" x="0" y="110" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect02)"/>
-      <rect id="rect12" x="55" y="110" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect12)"/>
-      <rect id="rect22" x="110" y="110" rx="10" ry="10" width="50" height="50" onfocus="setFocus(rect22)"/>
-    </svg>
-
     <script src="file:///E:\Documents\DrawPuzzleApp/DrawPuzzle.js"></script>
   </body>
 </html>
