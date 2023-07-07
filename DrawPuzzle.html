@@ -24,6 +24,19 @@
         />
       </div>
 
+      <div class="greenTitleDiv">
+        <b id="greenTitle">Green</b>
+        <input
+          oninput="changeColor()"
+          autocapitalize="characters"
+          type="text"
+          id="greenInput"
+          maxlength="2"
+          style="text-transform: uppercase;"
+          size="4"
+        />
+      </div>
+
       <div class="blueTitleDiv">
         <b id="blueTitle">Blue</b>
         <input
@@ -37,34 +50,84 @@
         />
       </div>
 
-      <div class="greenTitleDiv">
-        <b id="greenTitle">Green</b>
-        <input
-          oninput="changeColor()"
-          autocapitalize="characters"
-          type="text"
-          id="greenInput"
-          maxlength="2"
-          style="text-transform: uppercase;"
-          size="4"
-        />
-      </div>
-      <div class="x3">
-      <svg width="200" height="200">
-        <rect visibility="hidden" id="rect00" x="20" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect00)"/>
-        <rect visibility="hidden" id="rect10" x="75" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect10)"/>
-        <rect visibility="hidden" id="rect20" x="130" y="20" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect20)"/>
-        <rect visibility="hidden" id="rect01" x="20" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect01)"/>
-        <rect visibility="visible" id="rect11" x="75" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect11)"/>
-        <rect visibility="hidden" id="rect21" x="130" y="75" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect21)"/>
-        <rect visibility="hidden" id="rect02" x="20" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect02)"/>
-        <rect visibility="hidden" id="rect12" x="75" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect12)"/>
-        <rect visibility="hidden" id="rect22" x="130" y="130" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect22)"/>
+
+      <div class="x3" id="x3">
+      <svg width="510" height="510">
+        <rect visibility="hidden" id="rect00" x="5" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect00)"/>
+        <rect visibility="hidden" id="rect10" x="60" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect10)"/>
+        <rect visibility="hidden" id="rect20" x="115" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect20)"/>
+        <rect visibility="hidden" id="rect30" x="170" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect30)"/>
+        <rect visibility="hidden" id="rect40" x="225" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect40)"/>
+        <rect visibility="hidden" id="rect50" x="280" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect50)"/>
+        <rect visibility="hidden" id="rect60" x="335" y="5" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect60)"/>
+
+        <rect visibility="hidden" id="rect01" x="5" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect01)"/>
+        <rect visibility="hidden" id="rect11" x="60" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect11)"/>
+        <rect visibility="hidden" id="rect21" x="115" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect21)"/>
+        <rect visibility="hidden" id="rect31" x="170" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect31)"/>
+        <rect visibility="hidden" id="rect41" x="225" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect41)"/>
+        <rect visibility="hidden" id="rect51" x="280" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect51)"/>
+        <rect visibility="hidden" id="rect61" x="335" y="60" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect61)"/>
+
+        <rect visibility="hidden" id="rect02" x="5" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect02)"/>
+        <rect visibility="hidden" id="rect12" x="60" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect12)"/>
+        <rect visibility="hidden" id="rect22" x="115" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect22)"/>
+        <rect visibility="hidden" id="rect32" x="170" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect32)"/>
+        <rect visibility="hidden" id="rect42" x="225" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect42)"/>
+        <rect visibility="hidden" id="rect52" x="280" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect52)"/>
+        <rect visibility="hidden" id="rect62" x="335" y="115" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect62)"/>
+
+        <rect visibility="hidden" id="rect03" x="5" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect03)"/>
+        <rect visibility="hidden" id="rect13" x="60" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect13)"/>
+        <rect visibility="hidden" id="rect23" x="115" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect23)"/>
+        <rect visibility="visible" id="rect33" x="170" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect33)"/>
+        <rect visibility="hidden" id="rect43" x="225" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect43)"/>
+        <rect visibility="hidden" id="rect53" x="280" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect53)"/>
+        <rect visibility="hidden" id="rect63" x="335" y="170" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect63)"/>
+
+        <rect visibility="hidden" id="rect04" x="5" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect04)"/>
+        <rect visibility="hidden" id="rect14" x="60" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect14)"/>
+        <rect visibility="hidden" id="rect24" x="115" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect24)"/>
+        <rect visibility="hidden" id="rect34" x="170" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect34)"/>
+        <rect visibility="hidden" id="rect44" x="225" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect44)"/>
+        <rect visibility="hidden" id="rect54" x="280" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect54)"/>
+        <rect visibility="hidden" id="rect64" x="335" y="225" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect64)"/>
+
+        <rect visibility="hidden" id="rect05" x="5" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect05)"/>
+        <rect visibility="hidden" id="rect15" x="60" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect15)"/>
+        <rect visibility="hidden" id="rect25" x="115" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect25)"/>
+        <rect visibility="hidden" id="rect35" x="170" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect35)"/>
+        <rect visibility="hidden" id="rect45" x="225" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect45)"/>
+        <rect visibility="hidden" id="rect55" x="280" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect55)"/>
+        <rect visibility="hidden" id="rect65" x="335" y="280" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect65)"/>
+
+        <rect visibility="hidden" id="rect06" x="5" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect06)"/>
+        <rect visibility="hidden" id="rect16" x="60" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect16)"/>
+        <rect visibility="hidden" id="rect26" x="115" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect26)"/>
+        <rect visibility="hidden" id="rect36" x="170" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect36)"/>
+        <rect visibility="hidden" id="rect46" x="225" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect46)"/>
+        <rect visibility="hidden" id="rect56" x="280" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect56)"/>
+        <rect visibility="hidden" id="rect66" x="335" y="335" rx="10" ry="10" width="50" height="50" fill="#FFFFFF" onfocus="setFocus(rect66)"/>
       </svg>
       </div>  
 
-      <div class="rulesContainer">
+      <div class="rule1Container" id="rule1Container">
         <b id="rule1"></b>
+      </div>
+      <div class="rule2Container" id="rule2Container">
+        <b id="rule2"></b>
+      </div>
+      <div class="rule3Container" id="rule3Container">
+        <b id="rule3"></b>
+      </div>
+      <div class="rule4Container" id="rule4Container">
+        <b id="rule4"></b>
+      </div>
+      <div class="rule5Container" id="rule5Container">
+        <b id="rule5"></b>
+      </div>
+      <div class="rule6Container" id="rule6Container">
+        <b id="rule6"></b>
       </div>
     </div>
     <script src="file:///E:\Documents\DrawPuzzleApp/DrawPuzzle.js"></script>

@@ -35,7 +35,15 @@ body {
     font-size: 30px;
     font-weight: bold;
   }
-  
+  #greenInput {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
   #blueInput {
     border-radius: 5px;
     overflow: hidden;
@@ -45,14 +53,7 @@ body {
     font-weight: bold;
   }
   
-  #greenInput {
-    border-radius: 5px;
-    overflow: hidden;
-    max-width: 50px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-  }
+
   
   .redTitleDiv {
     height: 200px;
@@ -68,7 +69,7 @@ body {
     width: 100px;
     position: relative;
     left: 50%;
-    bottom: 400px;
+    bottom: 200px;
     text-align: center;
   }
   
@@ -78,18 +79,58 @@ body {
     width: 100px;
     position: relative;
     left: 55%;
-    bottom: 200px;
+    bottom: 400px;
     text-align: center;
   }
 
-  .rulesContainer {
-    height: 200px;
-    width: 1000px;
+  .rule1Container {
+    height: auto;
+    width: auto;
     position: relative;
-    left: 30%;
-    bottom: 150px;
+    left: 25%;
+    bottom: 450px;
     text-align: left;
     font-size: 20px;
+  }
+
+  .rule2Container {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    font-size: 20px;
+    bottom: 430px
+  }
+
+  .rule3Container {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    font-size: 20px;
+    bottom: 410px
+  }
+
+  .rule4Container {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    font-size: 20px;
+    bottom: 390px
+  }
+
+  .rule5Container {
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 25%;
+    text-align: left;
+    font-size: 20px;
+    bottom: 370px
   }
 
 
@@ -110,5 +151,10 @@ body {
 
   @keyframes fadeIn {
     0% { opacity: 0; }
-    20% { opacity: 1; }
+    100% { opacity: 1; }
   }
+
+  @keyframes slideUp{
+    from{bottom:0px}
+    to{bottom:230px}
+}
